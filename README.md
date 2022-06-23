@@ -1,4 +1,4 @@
-# Customer Care Web Portal - Backend
+# News Feed assignment - MVP workshop
 
 1. [Installation](##Installation)
 1. [Running the app](##Running-the-app)
