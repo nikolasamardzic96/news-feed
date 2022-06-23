@@ -41,6 +41,7 @@ To connect with *mongoDB* we will need to edit **.env** file.
 ## Deploying the app on docker
 
 Before running the application user should run `docker-compose up -d` in order to build and run mongoDB container, which the applications uses for its database. All env vars are set in .env file, and the applications connects by default to mongo container. Migrations also need to be run, because default sources are saved in the database.
+In `src\news\news-feed.service.ts` you can change `CronExpression.EVERY_10_SECONDS` to `CronExpression.EVERY_30_SECONDS`. 10 second interval was used for testing purposes, for faster data retrieval. Code snippet inside cron takes about 40-80ms to execute with 7-8 test sources.
 
 ## Running the app
 
