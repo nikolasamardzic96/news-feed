@@ -35,12 +35,6 @@ const sources = [
     url: `https://cointelegraph.com/rss`,
     lastRead: new Date(-1),
     enabled: true
-  },
-  {
-    staticId: uuid.v4(),
-    url: `https://nova.rs/feed`,
-    lastRead: new Date(-1),
-    enabled: true
   }
 ];
 
